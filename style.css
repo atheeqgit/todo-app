@@ -1,0 +1,91 @@
+/*  ?=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+/* ?=============== UITYLITY CLASSES ===============*/
+
+/* ?================ MAIN CODINGS ===============*/
+.body-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgba(113, 4, 255, 0.274)
+  );
+}
+
+.quiz-box {
+  width: 50rem;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.quiz {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+
+.quiz h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+
+.quiz ul {
+  list-style: none;
+}
+.quiz ul li {
+  margin: 1rem 0;
+  color: #333333;
+  font-size: 1.8rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.quiz ul li label {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.button {
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: 400;
+  outline: none;
+  font-family: inherit;
+  padding: 1.5rem 0;
+  transition: 300ms;
+}
+
+.button:hover {
+  background-color: rgb(106, 32, 175);
+}
